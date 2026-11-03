@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AmbientTact: timely and selective responses for proactive streaming video agents. Research from Salesforce AI Research.">
+  <meta name="theme-color" content="#f8fafb">
+  <title>AmbientTact — Intelligence with a sense of timing</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="#" aria-label="AmbientTact home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>Ambient<span>Tact</span></a>
+    <nav aria-label="Main navigation"><a href="#examples">Examples</a><a href="#results">Results</a><a href="#research">Research</a><a href="assets/manuscript-draft.pdf" target="_blank" rel="noopener" class="nav-paper">Paper draft <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="small-spark" aria-hidden="true"></span> SALESFORCE AI RESEARCH</div>
+        <h1 id="hero-title">Intelligence with a sense of <em>timing.</em></h1>
+      </div>
+
+    </section>
+    <section class="container examples-section" id="examples" aria-label="Examples of proactive responses">
+      <div class="figure-carousel" role="region" aria-roledescription="carousel" aria-label="Ten proactive response illustrations" tabindex="0">
+        <div class="carousel-heading"><div><span id="figure-count">01 / 10</span><h3 id="figure-title">Salad ingredients</h3></div><div class="carousel-actions"><button type="button" id="figure-prev" aria-label="Previous figure">←</button><button type="button" id="figure-next" aria-label="Next figure">→</button><a id="figure-full" href="figures/main-figures/01-markii-01.png" target="_blank" rel="noopener">Full size ↗</a></div></div>
+        <img id="carousel-image" src="figures/main-figures/01-markii-01.png" width="2400" height="1060" alt="Salad ingredients: illustrative proactive response timelines">
+        <div class="carousel-dots" id="figure-dots" aria-label="Choose a figure"></div>
+      </div>
+    </section>
+
+    <section class="results-section" id="results" aria-labelledby="results-title"><div class="container">
+      <div class="section-top"><div><div class="eyebrow">01 / THE EVIDENCE</div><h2 id="results-title">Clear improvements over<br>state-of-the-art baselines.</h2></div><p>We report PAUC-F, a proactive video question-answering metric that balances timeliness and precision.</p></div>
+      <div class="chart-panel"><div class="chart-top"><h3>Timely and selective responding</h3><label class="select-label">Domain <select id="domain-select"><option value="mean">All domains · mean</option><option value="0">WEB</option><option value="1">EGO</option><option value="2">TV</option><option value="3">VAD</option></select></label></div><div id="result-bars" class="result-bars" role="img" aria-label="Model comparison on PAUC-F"></div><div class="chart-axis"><span>0</span><span>20</span><span>40</span><span>60</span><span>80</span><span>100</span></div><p class="chart-note">PAUC-F ↑ · ω = 0.5 · GPT-4.1 judge · scale 0–100</p></div>
+    </div></section>
+
+    <section class="container research-section" id="research" aria-labelledby="research-title"><div class="section-top"><div><div class="eyebrow">02 / THE FRAMEWORK</div><h2 id="research-title">Teach awareness.<br>Learn restraint.</h2></div></div>
+      <figure class="paper-overview"><a href="figures/paper/overview.png" target="_blank" rel="noopener" aria-label="Open the framework overview at full resolution"><img src="figures/paper/overview.png" loading="lazy" width="1700" height="626" alt="Paper framework overview: a video stream with Silence, Response and Hold decisions; human-verified annotated data, a sliding visual window with textual memory and structured output, causal model training, and timeliness plus firing precision evaluation."></a></figure>
+    </section>
+    <section class="evaluations-section" id="evaluations" aria-labelledby="evaluations-title"><div class="container">
+      <div class="section-top"><div><div class="eyebrow">03 / DETAILED EVALUATIONS</div><h2 id="evaluations-title">Across benchmarks.</h2></div><p>Four Common Models. Two Partial Models. Nine Evaluation Axes.</p></div>
+      <figure class="evaluation-figure"><img src="figures/evaluations/evaluation-radar.svg?v=6" loading="lazy" width="1200" height="1000" alt="Radar chart across nine evaluation axes: four complete models plus GPT-5.6-Sol and Gemini-2.5-Pro with four ProactiveVideoQA PAUC-F scores each. Missing scores are left unplotted."></figure>
+    </div></section>
+  </main>
+  <footer class="container site-footer"><a class="brand" href="#">Ambient<span>Tact</span></a><span>Salesforce AI Research</span></footer>
+  <script src="figures-data.js?v=5"></script><script src="site.js?v=5"></script>
+</body></html>
