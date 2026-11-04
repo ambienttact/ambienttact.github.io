@@ -15,7 +15,7 @@ Open http://127.0.0.1:8771/.
 ## Contents
 
 HTML, CSS, JavaScript, the 4K overview video and poster, ten carousel PNGs, the framework image,
-the evaluation radar SVG, favicon, and linked manuscript draft PDF.
+the evaluation radar SVG and favicon. Research resource buttons are placeholders until release.
 Full-size carousel links use the same original-resolution PNGs.
 
 ## GitHub Pages
