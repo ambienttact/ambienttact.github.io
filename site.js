@@ -51,3 +51,17 @@
   showFigure(0);
   }
 })();
+
+(() => {
+  const video = document.getElementById('overview-video');
+  const play = document.querySelector('.video-play');
+  const error = document.querySelector('.video-error');
+  if (!video || !play) return;
+  play.hidden = false;
+  play.addEventListener('click', async () => {
+    error.hidden = true;
+    try { await video.play(); } catch { play.hidden = false; error.hidden = false; }
+  });
+  video.addEventListener('play', () => { play.hidden = true; error.hidden = true; });
+  video.addEventListener('ended', () => { play.hidden = false; });
+})();

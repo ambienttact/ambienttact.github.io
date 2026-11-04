@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f8fafb">
   <title>AmbientTact — Intelligence with a sense of timing</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -21,6 +21,16 @@
         <h1 id="hero-title">Intelligence with a sense of <em>timing.</em></h1>
       </div>
 
+    </section>
+    <section class="container video-section" id="demo" aria-label="AmbientTact video overview">
+      <div class="overview-player">
+        <video id="overview-video" controls playsinline preload="none" poster="assets/ambienttact-demo-poster.jpg" width="3840" height="2160" aria-label="AmbientTact: Proactive Streaming Video Understanding">
+          <source src="assets/ambienttact-demo.mp4?v=8" type="video/mp4">
+          Your browser does not support embedded video. <a href="assets/ambienttact-demo.mp4?v=8">Watch the AmbientTact video</a>.
+        </video>
+        <button class="video-play" type="button" aria-label="Play AmbientTact overview video" hidden><span aria-hidden="true">▶</span><span>Watch the overview <small>1 min 16 sec</small></span></button>
+        <p class="video-error" role="status" hidden>Playback could not start. Try the player controls or <a href="assets/ambienttact-demo.mp4?v=8">open the video</a>.</p>
+      </div>
     </section>
     <section class="container examples-section" id="examples" aria-label="Examples of proactive responses">
       <div class="figure-carousel" role="region" aria-roledescription="carousel" aria-label="Ten proactive response illustrations" tabindex="0">
@@ -44,5 +54,5 @@
     </div></section>
   </main>
   <footer class="container site-footer"><a class="brand" href="#">Ambient<span>Tact</span></a><span>Salesforce AI Research</span></footer>
-  <script src="figures-data.js?v=5"></script><script src="site.js?v=5"></script>
+  <script src="figures-data.js?v=5"></script><script src="site.js?v=7"></script>
 </body></html>

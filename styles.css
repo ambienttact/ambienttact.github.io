@@ -34,3 +34,13 @@
 .evaluation-note{margin:20px 0}
 .evaluation-sources summary{cursor:pointer}.evaluation-sources a{color:var(--teal)}
 @media(max-width:600px){.evaluations-section{padding:48px 0 36px}.evaluation-links{gap:18px;justify-content:flex-start}.evaluation-table th,.evaluation-table td{padding:12px 10px}}
+
+/* User-initiated overview video, before the example gallery. */
+.video-section{padding-bottom:60px}
+.overview-player{position:relative;max-width:960px;margin-inline:auto;background:#102f3d;border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 40px #1433430c;overflow:hidden}
+.overview-player video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#102f3d}
+.video-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:flex;align-items:center;gap:16px;padding:16px 25px;border:1px solid #ffffff70;border-radius:60px;background:#143343f2;color:white;box-shadow:0 5px 24px #0003;font-size:15px;font-weight:500;white-space:nowrap}
+.video-play>span:first-child{font-size:24px}.video-play small{display:block;font-size:10px;font-weight:400;opacity:.8;margin-top:4px;text-align:left}
+.video-play:hover{background:#087b79}.video-play[hidden],.video-error[hidden]{display:none}
+.video-error{position:absolute;bottom:48px;left:12px;right:12px;padding:12px;margin:0;border-radius:6px;background:#143343f2;color:white;font-size:12px;text-align:center}.video-error a{text-decoration:underline}
+@media(max-width:600px){.video-section{padding-bottom:36px}.overview-player{border-radius:8px}.video-play{padding:12px 18px;gap:12px;font-size:12px}.video-play>span:first-child{font-size:20px}.video-play small{font-size:9px}}
