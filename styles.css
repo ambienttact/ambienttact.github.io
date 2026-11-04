@@ -56,3 +56,49 @@
 
 @media(max-width:600px){.site-header nav{gap:12px}.site-header nav a:first-child{display:inline}}
 @media(max-width:370px){.site-header nav>a:not(:last-child){display:inline}.site-header nav{gap:9px;font-size:10px}}
+
+/* Salesforce AI Research palette, adapted from sfr-autornd.github.io. */
+:root{--paper:#f8fbfe;--ink:#032d60;--secondary:#496078;--muted:#5e7288;--line:#dbe7f2;--teal:#0176d3;--pale:#eaf5fe;--navy:#032d60;--mint:#b6e5ff;--sf-blue:#0176d3;--sf-bright:#1b96ff;--sf-deep:#0b5cab}
+body{background:radial-gradient(ellipse at 90% 5%,#eaf5fe99,transparent 35%),var(--paper)}
+.site-header{background:#fff;border-bottom-color:var(--line)}
+.nav-wrap{height:92px;gap:28px}
+.salesforce-brand{gap:14px;flex-shrink:0;letter-spacing:0}
+.salesforce-brand img{display:block;width:60px;height:42px;object-fit:contain}
+.brand-wordmark{display:flex;flex-direction:column;gap:3px;line-height:1.2}
+.brand-wordmark strong{font-size:23px;font-weight:700;letter-spacing:-.8px;color:var(--navy)}
+.brand-wordmark small{font-size:10px;font-weight:500;letter-spacing:.25px;color:var(--secondary)}
+.site-header nav{font-size:12px;font-weight:550;gap:30px}
+.site-header nav a:hover{color:var(--sf-blue)}
+.hero{padding-top:48px;padding-bottom:32px}
+.hero:before{background:radial-gradient(ellipse,#d9eeff77,transparent 68%);height:420px;top:-20px}
+.hero-copy>.eyebrow{display:inline-flex;min-height:29px;padding:7px 12px;background:var(--pale);border:1px solid #cde6fa;border-radius:30px;color:var(--sf-deep);font-size:9px;font-weight:700;letter-spacing:1.5px}
+.hero h1{font-weight:600;color:var(--navy)}
+.hero h1 em{color:var(--sf-blue)}
+.resource-button:disabled{color:var(--sf-deep);border-color:#cadff1;background:#fff;box-shadow:0 1px 2px #032d6005}
+.resource-button span{color:var(--muted)}
+.overview-player{border-color:#cde0ef;box-shadow:0 14px 45px #032d600d}
+.video-play{background:#0176d3f5;border-color:#ffffffa0;box-shadow:0 6px 24px #032d6033}
+.video-play:hover{background:var(--sf-deep)}
+.video-error{background:#032d60f5}
+.figure-carousel,.paper-overview{border-color:var(--line);box-shadow:0 4px 18px #032d6004}
+.carousel-actions button{border-color:#cde0ef;color:var(--sf-deep)}
+.carousel-actions button:hover{background:var(--pale);border-color:#a8cfed}
+.carousel-actions>a{color:var(--sf-deep)}
+.carousel-dots button{border-color:#d4e3f0;color:#4d6f8e}
+.carousel-dots button[aria-pressed=true]{background:var(--sf-blue);border-color:var(--sf-blue);box-shadow:0 2px 5px #0176d31a}
+.results-section{background:linear-gradient(180deg,#eef6fd,#f4f9fe);border-color:var(--line)}
+.eyebrow{color:var(--sf-deep)}
+h2{color:var(--navy);font-weight:550}
+.chart-panel{border-color:#d4e4f1;box-shadow:0 6px 24px #032d6005}
+.bar-fill{background:#b2c7dc}.bar.ours .bar-fill{background:var(--sf-blue)}
+.bar.ours .bar-label,.bar.ours .bar-label strong{color:var(--sf-deep)}
+.bar-track{background:repeating-linear-gradient(to right,transparent 0,transparent calc(20% - 1px),#dbe7f2 calc(20% - 1px),#dbe7f2 20%),#f1f6fb}
+select{border-color:#cddfec;color:var(--navy);background:#f8fbfe}
+.research-section{padding-top:72px;padding-bottom:60px}
+.evaluations-section{background:linear-gradient(180deg,#eef5fc,#f8fbfe);border-color:var(--line)}
+.evaluation-figure{border-color:#d4e4f1;box-shadow:0 6px 24px #032d6004}
+.site-footer{padding-block:28px;border-top-color:var(--line)}
+.footer-brand{gap:12px;color:var(--navy)}.footer-brand img{display:block;object-fit:contain}
+.site-footer>span{color:var(--secondary)}
+@media(max-width:850px){.salesforce-brand{gap:11px}.brand-wordmark strong{font-size:21px}.site-header nav{gap:22px}.hero{padding-top:36px}}
+@media(max-width:600px){.nav-wrap{height:auto;min-height:110px;gap:16px;padding-block:15px;flex-wrap:wrap}.salesforce-brand img{width:48px;height:34px}.brand-wordmark strong{font-size:21px}.brand-wordmark small{font-size:9px}.site-header nav{width:100%;justify-content:flex-start;gap:26px;font-size:11px}.hero{padding-top:28px;padding-bottom:25px}.hero-copy>.eyebrow{font-size:8px;padding:6px 10px;min-height:26px}.research-section{padding-top:48px;padding-bottom:36px}.site-footer{flex-wrap:nowrap}.site-footer>span{font-size:9px}.footer-brand{gap:9px}.footer-brand img{width:38px;height:27px}}
