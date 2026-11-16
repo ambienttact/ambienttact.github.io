@@ -27,7 +27,7 @@
   }
 
   function initializeCarousel() {
-  const slides=window.AMBIENT_FIGURES;
+  const slides=window.BLIP_LIVE_FIGURES;
   let active=0;
   const dots=document.getElementById('figure-dots');
   dots.innerHTML=slides.map((s,i)=>`<button type="button" data-figure="${i}" aria-label="Figure ${i+1}: ${s.title}" aria-pressed="${i===0}">${i+1}</button>`).join('');
