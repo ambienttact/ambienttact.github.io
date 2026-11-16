@@ -620,7 +620,7 @@ L 377.661719 640.306562
     </g>
    </g>
    <g id="text_20">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #143343" x="386.461719" y="644.156562" transform="rotate(-0 386.461719 644.156562)">AmbientTact-Gemma</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #143343" x="386.461719" y="644.156562" transform="rotate(-0 386.461719 644.156562)">BLIP-Live-Gemma</text>
    </g>
    <g id="line2d_24">
     <path d="M 355.661719 656.807422 
@@ -632,7 +632,7 @@ L 377.661719 656.807422
     </g>
    </g>
    <g id="text_21">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #143343" x="386.461719" y="660.657422" transform="rotate(-0 386.461719 660.657422)">AmbientTact-Qwen</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #143343" x="386.461719" y="660.657422" transform="rotate(-0 386.461719 660.657422)">BLIP-Live-Qwen</text>
    </g>
    <g id="line2d_25">
     <path d="M 524.625156 640.306562 

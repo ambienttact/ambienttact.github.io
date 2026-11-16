@@ -1,6 +1,6 @@
-# AmbientTact Website
+# BLIP-Live Website
 
-Static research website for AmbientTact / Salesforce AI Research.
+Static research website for BLIP-Live / Salesforce AI Research.
 
 ## Local preview
 

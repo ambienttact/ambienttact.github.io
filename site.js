@@ -5,7 +5,7 @@
 
   function initializeResults() {
   const models = [
-    {name:'AmbientTact', mean:49.08, values:[57.48,46.05,43.11,49.67], ours:true},
+    {name:'BLIP-Live', mean:49.08, values:[57.48,46.05,43.11,49.67], ours:true},
     {name:'Qwen3.5-A3B',mean:42.94,values:[54.24,39.29,34.47,43.75]},
     {name:'GPT-5.6-Sol',mean:42.03,values:[60.35,32.03,40.94,34.81]},
     {name:'Gemini-2.5-Pro',mean:38.54,values:[57.67,33.97,37.98,24.53]},
